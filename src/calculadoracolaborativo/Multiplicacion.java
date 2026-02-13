@@ -9,6 +9,7 @@ package calculadoracolaborativo;
  * @author USUARIO
  */
 public class Multiplicacion {
+    //moddfd
     public int multiplicar(int a, int b){
         return a*b;
     }
