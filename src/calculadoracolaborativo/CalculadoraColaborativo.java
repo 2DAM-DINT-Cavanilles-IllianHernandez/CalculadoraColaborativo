@@ -14,7 +14,19 @@ public class CalculadoraColaborativo {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-    }
+        System.out.println("Hello World!");
+
+        Multiplicacion multi = new Multiplicacion();
+        Suma sum = new Suma();
+        Resta rest = new Resta();
     
+        int multiplicacion = multi.multiplicar(8, 8);
+        int suma = sum.sumar(1, 1);
+        int resta = rest.resta(10, 3);
+        
+        System.out.println("Multiplicacion: " + multiplicacion); //4*9
+        System.out.println("Suma: " + suma); //2+5
+        System.out.println("resta: " + resta); //8-2
+
+    }
 }
